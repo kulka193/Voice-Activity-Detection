@@ -14,8 +14,9 @@ Build
 The model has been trained with MSE Cost function, ReLU output layer and RMSProp optimization for approximately 20-50 epochs and a dropout and decayed learning rate alongside 10% validation error. 
 
 Preprocessings involved: 
-1.Download and extract time series waveforms from '.flac' audio files
-2.File-wise extract and store binary files (.mfcc)
+ 1.Download and extract time series waveforms from '.flac' audio files
+ 2.File-wise extract and store binary files (.mfcc)
+ 3.Mixing random frames of noise (download and extract from  https://zenodo.org/record/1227121#.W23BI9VKiUm ) with clean audio signals to get time-series vectors
 
 TODO: 
 1. Better Hyperparameter optimization. 
