@@ -9,7 +9,7 @@ Take Speech frames and extract Log spectrogram or MFCCs to get the features read
 
 Build 
 (a) Feedforward Model
-(b) sequence model (LSTMs)
+(b) sequence model ( Bidirectional LSTMs)
 
 The model has been trained with MSE Cost function, ReLU output layer and RMSProp optimization for approximately 20-50 epochs and a dropout and decayed learning rate alongside 10% validation error. 
 
